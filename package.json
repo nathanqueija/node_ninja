@@ -1,0 +1,28 @@
+{
+  "name": "node_ninja",
+  "version": "1.0.0",
+  "description": "A node project with some cool features about this ecosystem",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon node-web-server/server.js -e js,hbs"
+  },
+  "keywords": [
+    "node",
+    "socketio",
+    "javascript",
+    "es6",
+    "mongodb",
+    "modules"
+  ],
+  "author": "Nathan Queija",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "express": "^4.15.4",
+    "hbs": "^4.0.1",
+    "lodash": "^4.17.4",
+    "nodemon": "^1.12.1",
+    "request": "^2.81.0",
+    "yargs": "^8.0.2"
+  }
+}
